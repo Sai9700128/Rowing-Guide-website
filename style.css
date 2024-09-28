@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ===============================================================================================================================================================*/
+/* Header/ Navbar  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 250px 0px 150px;
+}
+
+.logo{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.Menu{
+    color: rgb(71, 70, 70);
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.navbar a img{
+    width: 50px;
+}
+
+.section img {
+    width: 1100px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+/* =============================================================================================================================================================== */
+    /* Landind section */
+
+.Container{
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container .cards{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 293px;
+    height: 200px;
+    background: #ef9608;
+    margin: 20px 22px 0px 1037px;
+    padding: 44px 50px;
+}
+
+.Container .cards img{
+    width: 1111px;
+    height: 720px;
+}
+
+.continue{
+    position: relative;
+    display: flex;
+    width: 293px;
+    height: 200px;
+    background: #ef9608;
+
+}
