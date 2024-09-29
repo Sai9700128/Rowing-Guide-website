@@ -226,7 +226,7 @@
 /* =================================================================================================================================================================== */
 
 .toursoffers{
-    margin: 94px 100px 0px 257px;
+    margin: 94px 100px 20px 257px;
 }
 
 .textcontent{
@@ -246,12 +246,19 @@
 .textcontent p{
     font-size: 20px;
     width: 700px;
+    padding: 10px;
 }
 
 .toursoffers .btn{
     width: 100px;
     height: 30px;
-    margin-top: 10px;
+    margin: 20px;
+    background-color: #ef9608;
+}
+
+.toursoffers .btn:hover{
+    background-color: #d0b07d;
+    cursor: pointer;
 }
 
 .imgundercontent{
@@ -260,11 +267,15 @@
 }
 
 .imgundercontent img{
-    width: 140px;
-    padding: 10px;
+    width: 170px;
+    height: 187px;
+    padding: 10px 0px 0px 39px;
 }
 
 .right img{
-    height: 700px;
+    width: 491px;
+    height: 790px;
+    margin: 20px 0px 20px 71px;
 }
+
 
