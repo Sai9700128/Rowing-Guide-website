@@ -248,9 +248,10 @@
     width: 700px;
 }
 
-.textcontent ~ button{
-    width: 40px;
+.toursoffers .btn{
+    width: 100px;
     height: 30px;
+    margin-top: 10px;
 }
 
 .imgundercontent{
