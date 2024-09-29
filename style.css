@@ -98,7 +98,7 @@
     position: relative;
     width: 100%;
     margin-top: 476px;
-    height: 482px;
+    height: 500px;
     background: #4a3108;
     color: white;
 }
@@ -132,7 +132,7 @@
     margin: 110px 110px 40px 110px;
     background-color: rgb(224, 224, 224);
     width: 300px;
-    height: 400px;
+    height: 470px;
     border-radius: 4px;
 
 }
@@ -142,11 +142,16 @@
     justify-content: center;
 }
 
+.imgcontainer p{
+    padding: 10px;
+}
+
 .separatimg img{
     width: 273px;
-    height: 259px;
+    height: 265px;
     padding: 13px;
 }
+
 
 
 .imgtopic, p{
@@ -166,14 +171,15 @@
 }
 
 .continue button:hover{
-    background-color: #d0b07d;
+    background-color: #cbac7a;
     cursor: pointer;
 }
+
 
 /* =================================================================================================================================================================== */
 
 .updates{
-    background-color: rgb(234 234 234);
+    background-color: rgba(234 234 234);
     width: 100%;
     height: 900px;
 }
@@ -204,3 +210,4 @@
 .grp p{
     width: 520px;
 }
+
