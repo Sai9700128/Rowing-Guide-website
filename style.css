@@ -1,3 +1,5 @@
+
+/* Simple Selector */
 *{
     margin: 0px;
     padding: 0px;
@@ -224,8 +226,44 @@
 /* =================================================================================================================================================================== */
 
 .toursoffers{
+    margin: 94px 100px 0px 257px;
+}
+
+.textcontent{
     display: flex;
-    flex-flow: row wrap;
-    margin: 27px 37px 0px 58px;
+}
+
+/* .tourcontent{
+    margin: 38px 0px 0px 117px;
+} */
+
+
+.textcontent h1{
+    font-size: 73px;
+    width: 521px;
+}
+
+.textcontent p{
+    font-size: 20px;
+    width: 700px;
+}
+
+.textcontent ~ button{
+    width: 40px;
+    height: 30px;
+}
+
+.imgundercontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgundercontent img{
+    width: 140px;
+    padding: 10px;
+}
+
+.right img{
+    height: 700px;
 }
 
