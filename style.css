@@ -7,6 +7,9 @@
 /* classes are declared with "." (ex: .cards, .container) */
 /* Id's are declared with "#" (ex: #card, #container) */
 
+/* Simple Selectors : #para1{} , .container, .card, h1{} , p{} */
+/* Combinator : (space) , (>) , (+) , (~) */
+
 /* ===============================================================================================================================================================*/
 /* Header/ Navbar  */
 
@@ -28,6 +31,10 @@
     font-size: 25px;
 
 }
+
+/* will target img html element */
+
+/* the below form (.navbar a img{}) says that img html tag or element is inside "a" and navbar class */
 
 .navbar a img{
     width: 50px;
@@ -53,7 +60,7 @@
 .Container .cards{
     position: relative;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 293px;
     height: 200px;
     background: #ef9608;
@@ -98,7 +105,7 @@
     position: relative;
     width: 100%;
     margin-top: 476px;
-    height: 500px;
+    height: 608px;
     background: #4a3108;
     color: white;
 }
@@ -170,6 +177,9 @@
     border-radius: 10px;
 }
 
+
+/* Pseudo Class */
+
 .continue button:hover{
     background-color: #cbac7a;
     cursor: pointer;
@@ -181,7 +191,7 @@
 .updates{
     background-color: rgba(234 234 234);
     width: 100%;
-    height: 900px;
+    height: 790px;
 }
 
 .updates img{
@@ -209,5 +219,13 @@
 
 .grp p{
     width: 520px;
+}
+
+/* =================================================================================================================================================================== */
+
+.toursoffers{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 27px 37px 0px 58px;
 }
 
