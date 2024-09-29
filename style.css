@@ -4,6 +4,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* classes are declared with "." (ex: .cards, .container) */
+/* Id's are declared with "#" (ex: #card, #container) */
+
 /* ===============================================================================================================================================================*/
 /* Header/ Navbar  */
 
@@ -63,11 +66,36 @@
     height: 720px;
 }
 
+.imgcontent{
+    width: 185px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 170px;
+    background-color: #ffffff;
+    margin: -266px 0px 0px 100px;
+    font-size: 30px;
+}
+
+.imgcontent .cardsbtn{
+    width: 92px;
+    height: 35px;
+    background-color: #ef9608;
+    border-radius: 10px;
+}
+
+
+/* ================================================================================================================================================================================ */
+
+
+
 .continue{
     position: relative;
     display: flex;
-    width: 293px;
-    height: 200px;
-    background: #ef9608;
+    width: 100%;
+    margin-top: 476px;
+    height: 482px;
+    background: #4a3108;
 
 }
