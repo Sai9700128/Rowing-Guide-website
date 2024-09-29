@@ -98,6 +98,10 @@
     color: white;
 }
 
+.color{
+    background-color: rgb(5, 46, 81);
+}
+
 .continuecontent h1{
     display: flex;
     justify-content: center;
@@ -120,7 +124,7 @@
 }
 
 .imgcontainer .separatimg{
-    margin: 110px;
+    margin: 110px 110px 40px 110px;
     background-color: rgb(224, 224, 224);
     width: 300px;
     height: 400px;
@@ -142,4 +146,51 @@
 
 .imgtopic, p{
     color: black;
+}
+
+.continue .continuebtn{
+    display: flex;
+    justify-content: center;
+}
+
+.continue button{
+    width: 105px;
+    height: 40px;
+    background-color: #ef9608;
+    border-radius: 10px;
+}
+
+/* =================================================================================================================================================================== */
+
+.updates{
+    background-color: rgb(234 234 234);
+    width: 100%;
+    height: 900px;
+}
+
+.updates img{
+    width: 40px;
+    height: 35px;
+}
+
+.updates h1{
+    font-size: 43px;
+    padding: 367px 605px 0px 600px;
+}
+
+.updatescontainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+.grp{
+    width: 600px;
+    height: 81px;
+    padding-left: 20px;
+}
+
+.grp p{
+    width: 520px;
 }
