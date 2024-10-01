@@ -365,7 +365,7 @@ input[type="radio"]{
     display: none;
 }
 
-input[type="radio"]:checked +label {
+input[type="radio"]:checked + label {
     background-color: #cbcbcb;
     padding: 12px 115px 12px 115px;
 }
@@ -385,7 +385,7 @@ input[type="radio"]:checked + label + .description {
     position: relative;
     background-color: #c27800;
     width: 100%;
-    height: 1206px;
+    height: 1006px;
     margin-top: 352px;
 }
 
@@ -393,7 +393,7 @@ input[type="radio"]:checked + label + .description {
     width: 440px;
     position: relative;
     display: flex;
-    margin: -1527px 0px 0px 440px;
+    margin: -1300px 0px 0px 440px;
 }
 
 .colours1container{
@@ -407,7 +407,7 @@ input[type="radio"]:checked + label + .description {
     height: 270px;
     width: 384px;
     position: relative;
-    margin: -1354px 0px 0px -55px;
+    margin: -1164px 0px 0px -55px;
 }
 
 .colours1content h1{
@@ -431,4 +431,107 @@ input[type="radio"]:checked + label + .description {
 .colours1content button:hover{
     background-color: #cbac7a;
     cursor: pointer;
+}
+
+/* ================================================================================================================================================================= */
+
+/* what people say section */
+
+
+.whatpeople{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: -454px 0px 0px 0px;
+    position: relative;
+}
+
+
+.whatpeople h1{
+    font-size: 52px;
+    color: white;
+}
+
+.whatcontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.whatcontent .cards{
+    padding: 48px 48px 30px 48px;
+    background-color: white;
+    width: 376px;
+    height: 200px;
+    margin: 50px;
+}
+
+.cards h1{
+    color: black;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+hr{
+    background-color: #c27800;
+    height: 1px;
+}
+
+.cards .year{
+    padding-top: 20px;
+}
+
+/* ================================================================================================================================================================= */
+/* location and contact form */
+
+.colours2{
+    background-color: #05001d;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.displaythis{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: -554px 200px 0px 57px;
+    color: white;
+}
+.location p{
+    color: white;
+}
+.follow{
+    padding: 18px 10px 100px 10px;
+}
+
+address{
+    font-size: 20px;
+    padding: 100px 10px 100px 10px;
+}
+
+.displaythis div{
+    padding: 0px 110px 10px 110px;
+
+}
+
+/* form */
+
+.form input, .textarea{
+    margin-top: 27px;
+    width: 400px;
+    height: 45px;
+}
+
+.form .textarea{
+    height: 80px;
+}
+
+.form button{
+    margin-top: 21px;
+    padding: 10px;
+    width: 400px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #c27800;
 }
