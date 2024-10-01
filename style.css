@@ -12,8 +12,12 @@
 /* Simple Selectors : #para1{} , .container, .card, h1{} , p{} */
 /* Combinator : (space) , (>) , (+) , (~) */
 /* Flex-box: is used for arranging items in rows,columns, center, and more. */
+/* Flexbox is used in most of the containers that I listed below. */
+/* I have used display, flex-direction, flex-wrap these kind of css items. */
 
 /* Box-Model: is that wrap each and every html element. This box-model is enabled to that element once its created in html file. */
+
+
 
 /* ===============================================================================================================================================================*/
 /* Header/ Navbar  */
@@ -283,6 +287,9 @@
 
 /* =================================================================================================================================================================== */
 
+/* Kayak Tours in Florida, Texas & Tennesse  session*/
+
+
 .colours{
     position: relative;
     background-color: #f1f1f1;
@@ -372,6 +379,7 @@ input[type="radio"]:checked + label + .description {
 
 /* ================================================================================================================================================================= */
 
+/* OUR MISSION Session */
 
 .colours1{
     position: relative;
@@ -385,5 +393,42 @@ input[type="radio"]:checked + label + .description {
     width: 440px;
     position: relative;
     display: flex;
-    margin: -1507px 0px 0px 370px;
+    margin: -1527px 0px 0px 440px;
+}
+
+.colours1container{
+    display: flex;
+}
+
+.colours1content{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 270px;
+    width: 384px;
+    position: relative;
+    margin: -1354px 0px 0px -55px;
+}
+
+.colours1content h1{
+    font-size: 33px;
+    padding: 10px 10px 20px 10px;
+}
+
+.colours1content p{
+    font-size: 17px;
+    color: #818181;
+    padding: 10px;
+}
+
+.colours1content button{
+    background-color: #ff9d00;
+    width: 115px;
+    height: 36px;
+    padding: 8px;
+}
+
+.colours1content button:hover{
+    background-color: #cbac7a;
+    cursor: pointer;
 }
