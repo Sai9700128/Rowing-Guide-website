@@ -280,40 +280,77 @@
 
 /* =================================================================================================================================================================== */
 
-.kayaktours{
-    display: flex;
+.colours{
+    position: relative;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 800px;
 }
 
+.kayakcontainer{
+    position: relative;
+    display: flex;
+    margin-top: -700px;
+    padding: 10px 20px 0px 20px;
 
-.kayak{
+}
+
+.kayaktext figure img{
+    width: 68px;
+}
+
+.kayaktext{
+    margin: 10px 10px 0px 40px;
+}
+
+/* Used id tag to specify */
+#container{
+    background-color:#ffffff;
+    width: 470px;
+    height: 550px;
+    padding: 38px;
+}
+
+.OurMission{
     font-size: 25px;
+    width: 400px;
+    height: 100px;
 }
 
 .description{
-    color: rgb(100, 100, 100);
+    color: rgb(8, 8, 8);
     max-height: 0;
     overflow: hidden;
 }
 
-.buttonexpand label::after{
-    content: '+';
-    font-size: 30px;
-    font-weight: bold;
-    padding-left: 20px;
+.description ol li{
+    color: #707070;
 }
 
+
+.buttonexpand label::after{
+     content: '+';
+    cursor: pointer;
+     font-size: 30px;
+     font-weight: bold;
+     padding-left: 20px;
+}
+
+
+
 input[type="radio"]{
-   display: none;
+    display: none;
+}
+
+input[type="radio"]:checked +label {
+    background-color: #cbac7a;
+    padding: 10px;
+    margin: 10px;
 }
 
 input[type="radio"]:checked + label + .description{
-   max-height: 400px;
-   padding: 10px 0px 20px;
+    max-height: 400px;
+    padding: 17px 60px 17px 60px;
+    
 }
 
-.Container{
-    width: 200px;
-    height: 300px;
-    margin-left: 300px;
-    background: rgb(206, 206, 206);
-}
