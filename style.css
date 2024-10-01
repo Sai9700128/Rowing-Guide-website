@@ -11,6 +11,9 @@
 
 /* Simple Selectors : #para1{} , .container, .card, h1{} , p{} */
 /* Combinator : (space) , (>) , (+) , (~) */
+/* Flex-box: is used for arranging items in rows,columns, center, and more. */
+
+/* Box-Model: is that wrap each and every html element. This box-model is enabled to that element once its created in html file. */
 
 /* ===============================================================================================================================================================*/
 /* Header/ Navbar  */
@@ -284,35 +287,46 @@
     position: relative;
     background-color: #f1f1f1;
     width: 100%;
-    height: 800px;
+    height: 1200px;
 }
 
 .kayakcontainer{
     position: relative;
     display: flex;
-    margin-top: -700px;
-    padding: 10px 20px 0px 20px;
+    margin-top: -1140px;
+    padding: 10px 15px 0px 15px;
 
 }
 
 .kayaktext figure img{
-    width: 68px;
+    padding-top: 60px;
+    width: 110px;
+}
+
+.kayaktext h1{
+    font-size: 60px;
+    width: 506px;
+}
+
+.kayakcontainer div{
+    padding: 90px 128px 0px 119px;
 }
 
 .kayaktext{
-    margin: 10px 10px 0px 40px;
+    margin: 10px 10px 0px 90px;
 }
 
 /* Used id tag to specify */
 #container{
     background-color:#ffffff;
     width: 470px;
-    height: 550px;
+    height: 600px;
     padding: 38px;
 }
 
 .OurMission{
     font-size: 25px;
+    border-radius: 8px;
     width: 400px;
     height: 100px;
 }
@@ -321,7 +335,9 @@
     color: rgb(8, 8, 8);
     max-height: 0;
     overflow: hidden;
+    font-size: 16px;
 }
+
 
 .description ol li{
     color: #707070;
@@ -343,14 +359,31 @@ input[type="radio"]{
 }
 
 input[type="radio"]:checked +label {
-    background-color: #cbac7a;
-    padding: 10px;
-    margin: 10px;
+    background-color: #cbcbcb;
+    padding: 12px 115px 12px 115px;
 }
 
-input[type="radio"]:checked + label + .description{
+input[type="radio"]:checked + label + .description {
+    max-width: 600px;
     max-height: 400px;
     padding: 17px 60px 17px 60px;
     
 }
 
+/* ================================================================================================================================================================= */
+
+
+.colours1{
+    position: relative;
+    background-color: #c27800;
+    width: 100%;
+    height: 1206px;
+    margin-top: 352px;
+}
+
+.Colours1sideimg img{
+    width: 440px;
+    position: relative;
+    display: flex;
+    margin: -1507px 0px 0px 370px;
+}
