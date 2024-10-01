@@ -11,11 +11,9 @@ This website contains topic like CSS Selectors, properties, Combinators, Pseudo-
 
 - git init (Even there is an hidden files I have initializes just for best practice)
 
-- touch README.md (to create the readme file)
-
-- vi README.md (Used this command to edit changes and add information)
-
 - git add .
+
+-git add filename.extension (used to add separate files in the commit list)
 
 - git commit -m "READEME"
 
