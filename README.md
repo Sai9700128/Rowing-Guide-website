@@ -24,6 +24,7 @@ This website contains topic like CSS Selectors, properties, Combinators, Pseudo-
 
 - Just one windows or Linux or Mac OS system and little bit of knowledge about git commands.
 - Use VsCode to create and write the code in html and css. This is the best IDE for most of the programming languages.
+- Use extensions which are related to HTML, CSS, live server and more.
 
 # Contributions
 
