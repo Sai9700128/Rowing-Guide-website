@@ -42,4 +42,4 @@ It's pretty straingforward :
 * A lot of interest and respect towards Knowledge.
 * An International Student @NORTHEASTERN_UNIVERSITY
 
-## MADE BY SAI KALYAN
+## MADE BY BURRA SAI KALYAN
