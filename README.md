@@ -3,6 +3,8 @@
 
 # Getting Started
 
+This repository is all about doing things that we have learnt.
+This website contains topic like CSS Selectors, properties, Combinators, Pseudo-classes, Pseudo-elements, flexbox and Box model in CSS.
 
 
 # Commands I Used:
@@ -37,7 +39,7 @@ It's pretty straingforward :
 
 ## BUILT WITH
 
-* A lot of interest and respect with little bit Git & Github Knowledge.
+* A lot of interest and respect towards Knowledge.
 * An International Student @NORTHEASTERN_UNIVERSITY
 
 ## MADE BY SAI KALYAN
