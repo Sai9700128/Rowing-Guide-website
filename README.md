@@ -7,7 +7,7 @@ This repository is all about doing things that we have learnt.
 This website contains topic like CSS Selectors, properties, Combinators, Pseudo-classes, Pseudo-elements, flexbox and Box model in CSS.
 
 
-# Commands I Used:
+# Commands I Used to commit and push:
 
 - git init (Even there is an hidden files I have initializes just for best practice)
 
