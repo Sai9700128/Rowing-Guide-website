@@ -13,7 +13,7 @@ This website contains topic like CSS Selectors, properties, Combinators, Pseudo-
 
 - git add .
 
--git add filename.extension (used to add separate files in the commit list)
+- git add filename.extension (used to add separate files in the commit list)
 
 - git commit -m "READEME"
 
