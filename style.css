@@ -155,10 +155,10 @@
 
 .imgcontainer .separatimg{
     margin: 110px 110px 40px 110px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(177, 177, 177);
     width: 300px;
-    height: 470px;
-    border-radius: 4px;
+    height: 520px;
+    border-radius: 26px;
 
 }
 
@@ -168,13 +168,14 @@
 }
 
 .imgcontainer p{
-    padding: 10px;
+    padding: 9px 10px 0px 10px;
+    width: 276px;
 }
 
 .separatimg img{
-    width: 261px;
-    height: 298px;
-    padding: 21px;
+    width: 251px;
+    height: 326px;
+    padding: 26px
 }
 
 
